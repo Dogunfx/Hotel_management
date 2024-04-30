@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    box-sizing: border-box;
+}
+
+.hotel-view {
+    box-shadow: 1px 1px 8px grey;
+    display: flex;
+    align-items: center;
+    padding: 30px 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.hotel-view h4 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+.hotel-view p {
+    font-style: italic;
+    color: #606060;
+    padding-left: 10px;
+}
+
+.hotel-action {
+    margin-left: auto;
+}
+
+.no-space {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hotel-action button {
+    background-color: rgba(0, 0, 0, 0.169);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hotel-action button i {
+    color: teal;
+    font-size: 1.3em;
+}
