@@ -15,7 +15,7 @@ export default function HotelView({
   function changeFav() {
     isFavState = !isFavState;
     setFavState(isFavState);
-    toast("Favorite has changed");
+    toast(`${hotelName} has changed`);
   }
 
   return (
