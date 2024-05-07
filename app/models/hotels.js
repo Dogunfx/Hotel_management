@@ -23,4 +23,11 @@ export var hotels = [
     hotelAddress: "Marble Hill Asaba",
     isFav: true,
   },
+
+  {
+    hotelName: "Pinacle",
+    hotelPhone: "asas",
+    hotelAddress: "Junction",
+    isFav: false,
+  },
 ];

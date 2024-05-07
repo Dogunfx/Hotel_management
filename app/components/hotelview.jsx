@@ -12,10 +12,10 @@ export default function HotelView({
 }) {
   var [isFavState, setFavState] = useState(isFav);
 
-  function changeFav() {
+  function handleClicking() {
     isFavState = !isFavState;
     setFavState(isFavState);
-    toast("Favorite has changed");
+    toast(hotelName + " Has Changed");
   }
 
   return (
@@ -26,7 +26,7 @@ export default function HotelView({
         <p className="no-space">{hotelPhone}</p>
       </div>
       <div className="hotel-action">
-        <button onClick={changeFav}>
+        <button onClick={handleClicking}>
           {isFavState ? (
             <i className="fa fa-heart"></i>
           ) : (
